@@ -8,14 +8,17 @@ export const About = () => {
         "HTML",
         "CSS",
         "TailwindCSS",
+        "Vercel",
         ]
 
     const backendSkills = [
         "Python",
         "SQL",
         "Java",
-         "Flask",
-         "Firebase",
+        "Flask",
+        "Firebase",
+        "C",
+        "Railway",
         ]
 
     return (
@@ -63,7 +66,7 @@ export const About = () => {
                             <strong>HBSc in Computer Science </strong> - Western University (2024-Present)
                         </li>
                         <li>
-                            Relevant Coursework: CS Fundamentals I (python), Foundations of CS (discrete math), CS Fundamentals II (Java), Intro to Buisness (Ivey Buisness Foundations)
+                            Relevant Coursework: Data Structures & Algorthims (Java), Software Tools and System Programming (C and Unix), Accounting and Business Analysis (Ivey Buisness Foundations 2257)
                         </li>
                     </ul>
                 </div>

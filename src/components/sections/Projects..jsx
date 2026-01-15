@@ -8,6 +8,7 @@ export const Projects = () => {
                 Featured Projects
             </h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+
                 <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 hover:shadow-[0_2_8px_rgba(255,0,255,0.2)] transition">
                     <h3 className="text-xl font-bold mb-2"> Flappy Goose Game </h3>
                     <p className="text-gray-400 mb-4">
@@ -22,6 +23,7 @@ export const Projects = () => {
                         <a href="https://github.com/Overrayted/flappybird-clone" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300 transition-colors my-4"> View Project →</a>
                     </div>
                 </div>
+
                  <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 hover:shadow-[0_2_8px_rgba(255,0,255,0.2)] transition">
                     <h3 className="text-xl font-bold mb-2"> Chat App </h3>
                     <p className="text-gray-400 mb-4">
@@ -33,9 +35,10 @@ export const Projects = () => {
                                 </span>))}
                     </div>
                     <div className="flex justify-between items-center">
-                        <a href="https://github.com/Overrayted/chatapp" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300 transition-colors my-4"> View Project →</a>
+                        <a href="https://whatsapp-clone-90108.web.app/" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300 transition-colors my-4"> View Project →</a>
                     </div>
                 </div>
+
                 <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 hover:shadow-[0_2_8px_rgba(255,0,255,0.2)] transition">
                     <h3 className="text-xl font-bold mb-2"> ProjectF </h3>
                     <p className="text-gray-400 mb-4">
@@ -50,6 +53,7 @@ export const Projects = () => {
                         <a href="https://github.com/Overrayted/projectF" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300 transition-colors my-4"> View Project →</a>
                     </div>
                 </div>
+
                  <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 hover:shadow-[0_2_8px_rgba(255,0,255,0.2)] transition">
                     <h3 className="text-xl font-bold mb-2"> Personal Portfolio </h3>
                     <p className="text-gray-400 mb-4">
@@ -64,6 +68,23 @@ export const Projects = () => {
                         <a href="#home" className="text-purple-400 hover:text-purple-300 transition-colors my-4"> View Project →</a>
                     </div>
                 </div>
+
+
+                <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 hover:shadow-[0_2_8px_rgba(255,0,255,0.2)] transition">
+                    <h3 className="text-xl font-bold mb-2"> Scholarship App </h3>
+                    <p className="text-gray-400 mb-4">
+                        Chatgpt wrapper to match Canadian Undergraduate Students to eligible scholarships.
+                    </p>
+                    <div className="flex flex-wrap gap-1">
+                        {["Javascript","React", "TailwindCSS", "Railway", "Vercel", "OpenAI API"].map((tech, key) => (<span key={key} className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20 hover:shadow-[0_2_8px_rgba(255,0,255,0.1)] transition-all">
+                                    {tech}
+                                </span>))}
+                    </div>
+                    <div className="flex justify-between items-center">
+                        <a href="https://scholario.ca" className="text-purple-400 hover:text-purple-300 transition-colors my-4"> View Project →</a>
+                    </div>
+                </div>
+
             </div>
         </div>
         </RevealOnScroll>
