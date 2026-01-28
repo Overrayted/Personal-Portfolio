@@ -63,7 +63,7 @@ export const About = () => {
                     <h3 className="text-xl font-bold mb-4">Education</h3>
                     <ul className="list-disc list-inside text-gray-300 space-y-2">
                         <li>
-                            <strong>HBSc in Computer Science </strong> - Western University (2024-Present)
+                            <strong>HBSc in Computer Science, Minor in Software Engineering </strong> - Western University (2024-2028)
                         </li>
                         <li>
                             Relevant Coursework: Data Structures & Algorthims (Java), Software Tools and System Programming (C and Unix), Accounting and Business Analysis (Ivey Buisness Foundations 2257)

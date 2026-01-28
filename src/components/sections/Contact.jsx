@@ -3,7 +3,7 @@ import { RevealOnScroll } from "../RevealOnScroll"
 export const Contact = () => {
     return <section id="contact" className="min-h-screen flex items-center justify-center py-20">
         <RevealOnScroll>
-            <div className="px-4 min-w-[500px] grid grid-cols-1 gap-6">
+            <div className="px-6 min-w-[300px] grid grid-cols-1 gap-6">
                 <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-blue-400 to-purple-500 bg-clip-text text-transparent text-center">Contact me</h2>
 
                     <a href="mailto:Rayhan24k@gmail.com" className="text-center w-full border border-purple-500 text-purple-500 py-3 px-6 rounded font-medium transition relative overflow-hidden hover:text-white hover:bg-purple-500 hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(255,0,255,0.4)]">
