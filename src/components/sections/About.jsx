@@ -9,6 +9,7 @@ export const About = () => {
         "CSS",
         "TailwindCSS",
         "Vercel",
+        "JavaFX",
         ]
 
     const backendSkills = [
@@ -30,7 +31,7 @@ export const About = () => {
 
             <div className="rounded-xl p-6 border-white/10 border hover:-translate-y-1 transition-all">
                 <p className="text-gray-300 mb-6">
-                    Second-year Computer Science student at Western University 
+                    Third-year Computer Science student at Western University 
                     who is always looking to learn and apply new concepts into creating functional solutions.
                 </p>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -63,18 +64,18 @@ export const About = () => {
                     <h3 className="text-xl font-bold mb-4">Education</h3>
                     <ul className="list-disc list-inside text-gray-300 space-y-2">
                         <li>
-                            <strong>HBSc in Computer Science, Minor in Software Engineering </strong> - Western University (2024-2028)
+                            <strong> HBSc Honors Specialization in Computer Science </strong> - Western University (2024-2028)
                         </li>
                         <li>
-                            Relevant Coursework: Data Structures & Algorthims (Java), Software Tools and System Programming (C and Unix), Accounting and Business Analysis (Ivey Buisness Foundations 2257)
+                            Relevant Coursework: Data Structures & Algorthims (Java), Software Tools and System Programming (C and Unix), Accounting and Business Analysis (Ivey Buisness Foundations 2257), Intro to Machine Learning (Python), Computer Networks
                         </li>
                     </ul>
                 </div>
                 <div className="p-6 rounded-xl border-white/10 border hover:-translate-y-1 transition-all">
                     <h3 className="text-xl font-bold mb-4">Work Experience</h3>
                     <div className="space-y-4 text-gray-300 ">
-                        <h4 className="font-semibold"> Associate Merchant Intern at Loblaw Company Limited (Summer 2025)</h4>
-                        <p>Supported retail operations by coordinating store distributions, performing assortment integrity checks, and maintaining clear communication with store teams and distribution centers</p>
+                        <h4 className="font-semibold"> Associate Merchant Intern at Loblaw Company Limited (Summer 2025, Summer 2026)</h4>
+                        <p>Supported retail operations by coordinating store distributions, vendor negotiations, becoming a point of contact between stores teams and distribution centers, and using my technical skills to drive effeciencies by implementing automations.</p>
                         
                     </div>
                 </div>

@@ -25,6 +25,37 @@ export const Projects = () => {
                 </div>
 
                 <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 hover:shadow-[0_2_8px_rgba(255,0,255,0.2)] transition">
+                    <h3 className="text-xl font-bold mb-2"> UPC Validation Check </h3>
+                    <p className="text-gray-400 mb-4">
+                        UPC validation check written as a culmination of my assembly knowledge.
+                    </p>
+                    <div className="flex flex-wrap gap-1">
+                        {["Assembly", "ARM 7"].map((tech, key) => (<span key={key} className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20 hover:shadow-[0_2_8px_rgba(255,0,255,0.1)] transition-all">
+                                    {tech}
+                                </span>))}
+                    </div>
+                    <div className="flex justify-between items-center">
+                        <a href="https://github.com/Overrayted/UPC-Verifier" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300 transition-colors my-4"> View Project →</a>
+                    </div>
+                </div>
+
+
+                <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 hover:shadow-[0_2_8px_rgba(255,0,255,0.2)] transition">
+                    <h3 className="text-xl font-bold mb-2"> Fitness Tracker </h3>
+                    <p className="text-gray-400 mb-4">
+                        Fitness app to encourage my family to do more cardio and collect data for future project.
+                    </p>
+                    <div className="flex flex-wrap gap-1">
+                        {["Type Script", "Firebase"].map((tech, key) => (<span key={key} className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20 hover:shadow-[0_2_8px_rgba(255,0,255,0.1)] transition-all">
+                                    {tech}
+                                </span>))}
+                    </div>
+                    <div className="flex justify-between items-center">
+                        <a href="https://strideboard.web.app/" target="_blank" rel="noopener noreferrer" className="text-purple-400 hover:text-purple-300 transition-colors my-4"> View Project →</a>
+                    </div>
+                </div>
+
+                <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 hover:shadow-[0_2_8px_rgba(255,0,255,0.2)] transition">
                     <h3 className="text-xl font-bold mb-2"> PocketTypes </h3>
                     <p className="text-gray-400 mb-4">
                         Pokemon styled typing game to help kids get better at typing.
@@ -57,7 +88,7 @@ export const Projects = () => {
                 <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 hover:shadow-[0_2_8px_rgba(255,0,255,0.2)] transition">
                     <h3 className="text-xl font-bold mb-2"> Personal Portfolio </h3>
                     <p className="text-gray-400 mb-4">
-                        The website your looking at right now!
+                        The website you're looking at right now!
                     </p>
                     <div className="flex flex-wrap gap-1">
                         {["Javascript","React", "TailwindCSS"].map((tech, key) => (<span key={key} className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20 hover:shadow-[0_2_8px_rgba(255,0,255,0.1)] transition-all">

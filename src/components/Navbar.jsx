@@ -1,4 +1,5 @@
 import { useEffect } from "react"
+import { FaGithub } from "react-icons/fa";
 
 export const Navbar = ({menuOpen, setMenuOpen}) => {
 
@@ -25,6 +26,7 @@ export const Navbar = ({menuOpen, setMenuOpen}) => {
                     <a href="#about" className="text-gray-300 hover:text-white transition-colors"> About </a>
                     <a href="#projects" className="text-gray-300 hover:text-white transition-colors"> Projects </a>
                     <a href="#contact" className="text-gray-300 hover:text-white transition-colors"> Contact </a>
+                    <a href="https://github.com/Overrayted" target="_blank" rel="noopener noreferrer" aria-label="GitHub" className="text-gray-300 hover:text-white transition-colors"> <FaGithub size={22} /> </a>
                     <a href="/Resume.pdf" target="_blank" rel="noopener noreferrer" className="border border-purple-400 px-3 py-1 rounded text-purple-400 hover:text-white hover:bg-purple-400 transition-colors"> Resume </a>
                 </div>
             </div>

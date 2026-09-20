@@ -20,6 +20,8 @@ export const MobileMenu = ({menuOpen, setMenuOpen}) => {
             ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`}> Projects </a>
             <a href="#contact" onClick={() => setMenuOpen(false)} className={`text-2xl font-semibold text-white my-4 transition-transform 
             ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`}> Contact </a>
+            <a href="https://github.com/Overrayted" target="_blank" rel="noopener noreferrer" onClick={() => setMenuOpen(false)} className={`text-2xl font-semibold text-white my-4 transition-transform 
+            ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`}> GitHub </a>
             <a href="/Resume.pdf" target="_blank" rel="noopener noreferrer" onClick={() => setMenuOpen(false)} className={`text-2xl font-semibold text-white my-4 transition-transform 
             ${menuOpen ? "opacity-100 translate-y-0" : "opacity-0 translate-y-5"}`}> Resume </a>
 
